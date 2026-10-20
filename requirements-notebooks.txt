@@ -1,0 +1,7 @@
+# Pentru rularea notebook-urilor local (include aplicația)
+-r requirements.txt
+matplotlib
+kagglehub
+mlxtend
+statsmodels
+ipykernel

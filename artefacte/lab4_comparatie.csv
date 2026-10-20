@@ -1,0 +1,5 @@
+metodă,tip,dimensiuni,rezultat principal,clienți noi
+"PCA (20 componente, alese prin validare)","nesupervizat, liniar",20,LogReg AUC test = 0.725 (toate variabilele: 0.600; regula 95%: 0.624),da (transform)
+PCA 2D,"nesupervizat, liniar",2,trustworthiness = 0.598; varianță explicată = 10.5%,da (transform)
+LDA (după PCA 20),"supervizat, liniar",2,acuratețe test = 0.626 (bază 0.565),da (transform)
+t-SNE (perplexity 30),"nesupervizat, neliniar",2,trustworthiness = 0.829,nu (se refac calculele)

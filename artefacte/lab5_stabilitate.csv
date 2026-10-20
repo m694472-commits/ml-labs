@@ -1,0 +1,7 @@
+,valoare
+reguli evaluate,451
+păstrează lift > 1 în test,99.8%
+"păstrează lift > 1 și confidence ≥ 0,5",82.7%
+corelația Spearman lift istoric vs. test,0.837
+schimbarea mediană a confidence (test − istoric),+0.004
+schimbarea absolută mediană a confidence,0.058

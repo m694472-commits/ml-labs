@@ -1,0 +1,66 @@
+{
+  "facturi": 39516,
+  "clienti": 5256,
+  "contaminare": 0.01,
+  "prag_consens": 3,
+  "metode": [
+    "Isolation Forest",
+    "LOF",
+    "DBSCAN",
+    "One-Class SVM",
+    "MCD (elipsă robustă)",
+    "kNN (distanța la al 10-lea vecin)"
+  ],
+  "variabile_factura": [
+    "log_nr_linii",
+    "log_cantitate",
+    "log_valoare",
+    "log_pret_mediu"
+  ],
+  "mediana_log": {
+    "log_nr_linii": 2.833213344056216,
+    "log_cantitate": 5.030437921392435,
+    "log_valoare": 5.717734688139139,
+    "log_pret_mediu": 1.0818051703517284
+  },
+  "mad_log": {
+    "log_nr_linii": 0.9834000067324574,
+    "log_cantitate": 1.0611935880384062,
+    "log_valoare": 0.8704732537371171,
+    "log_pret_mediu": 0.32196464860090795
+  },
+  "nume_variabile": {
+    "log_nr_linii": "nr. linii",
+    "log_cantitate": "cantitate",
+    "log_valoare": "valoare",
+    "log_pret_mediu": "preț mediu"
+  },
+  "anomalii_consens_facturi": 359,
+  "anomalii_consens_clienti": 69,
+  "stabilitate_if": 0.7387964786957829,
+  "arima_ordin": [
+    1,
+    1,
+    1
+  ],
+  "zile_anormale": 44,
+  "episoade": 33,
+  "zile_anormale_fara_calendar": 65,
+  "zile_evaluate": 725,
+  "caz_gasit": true,
+  "caz_id": "581483",
+  "caz_metode": [
+    "Isolation Forest",
+    "LOF",
+    "DBSCAN",
+    "One-Class SVM",
+    "kNN (distanța la al 10-lea vecin)"
+  ],
+  "caz_de_consens": true,
+  "pret_mediu_pe_factura_mediana": 1.9500000000000002,
+  "procent_venit_anomalii": 9.713081539886572,
+  "limite_iqr_valoare": {
+    "jos": 3.2712754186360398,
+    "sus": 7.971944293971485
+  }
+}

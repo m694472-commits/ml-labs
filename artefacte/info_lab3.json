@@ -1,0 +1,75 @@
+{
+  "model": "K-means (K=4)",
+  "k": 4,
+  "variabile_x": [
+    "recenta_zile",
+    "log_frecventa",
+    "log_valoare_medie_factura"
+  ],
+  "log_pe": [
+    "F",
+    "V"
+  ],
+  "brut": {
+    "R": "recenta_zile",
+    "F": "frecventa",
+    "V": "valoare_medie_factura"
+  },
+  "silhouette": 0.2841745161854144,
+  "davies_bouldin": 1.106489612103994,
+  "calinski_harabasz": 2537.6079430382147,
+  "v_measure": 0.10808278411035253,
+  "nume_segmente": {
+    "0": "recent · frecvent · valoare mare",
+    "2": "recență intermediară · rar · valoare mare",
+    "1": "recență intermediară · frecvență medie · valoare mică",
+    "3": "inactiv · rar · valoare mică"
+  },
+  "mediane": {
+    "recenta_zile": 163.0,
+    "frecventa": 3.0,
+    "valoare_medie_factura": 282.3725
+  },
+  "k_bun_silhouette": 4,
+  "eps_dbscan": 0.35099011535624386,
+  "min_samples_dbscan": 6,
+  "clienti": 5256,
+  "silhouette_pe_k": {
+    "2": 0.33077323117599444,
+    "3": 0.27849572918530324,
+    "4": 0.2841745161854144,
+    "5": 0.27187428476182507,
+    "6": 0.26422949993115497,
+    "7": 0.2613781442658186,
+    "8": 0.2662005855373429,
+    "9": 0.2735198065037613,
+    "10": 0.2749044033201626
+  },
+  "ierarhic_cel_mai_mare_cluster": {
+    "single": 99.94292237442922,
+    "complete": 68.94977168949772,
+    "average": 99.5814307458143,
+    "centroid": 99.5814307458143,
+    "ward": 44.21613394216134
+  },
+  "ierarhic_silhouette": {
+    "single": 0.4744075925791052,
+    "complete": 0.1379914065585685,
+    "average": 0.48952896215961583,
+    "centroid": 0.48566087817155784,
+    "ward": 0.2539178386099957
+  },
+  "dbscan": {
+    "clustere": 4,
+    "zgomot_pct": 4.604261796042618,
+    "silhouette": 0.09035678743226283
+  },
+  "gmm": {
+    "covarianta": "diag",
+    "k": 8,
+    "silhouette": 0.004034674946175395,
+    "varianta_minima": 0.01000061107791649
+  },
+  "pct_vanzari_top_segment": 76.40396599353025,
+  "pct_clienti_top_segment": 24.98097412480974
+}

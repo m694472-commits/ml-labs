@@ -1,0 +1,4 @@
+,seturi frecvente,timp (s),aceleași seturi ca Apriori,diferență maximă de suport
+Apriori,1430,84.08291389999795,True,0.0
+FP-Growth,1430,3.417512899992289,True,0.0
+ECLAT,1430,0.655624099978013,True,0.0

@@ -1,0 +1,9 @@
+coloană,tip,lipsă (%),valori distincte,exemplu,descriere
+Invoice,object,0.0,53628,489434,"Numărul facturii (6 cifre). Prefix „C” = anulare/retur, prefix „A” = ajustare contabilă."
+StockCode,object,0.0,5305,85048,"Codul produsului (de regulă 5 cifre + opțional o literă); apar și coduri de servicii (POST, M, BANK CHARGES…)."
+Description,object,0.4105414143723223,5698,15CM CHRISTMAS GLASS BALL 20 LIGHTS,Denumirea produsului (text liber; un cod poate avea descrieri ușor diferite).
+Quantity,int64,0.0,1057,12,Bucăți pe linie. Negativ la anulări și ajustări de stoc.
+InvoiceDate,datetime64[ns],0.0,47635,2009-12-01 07:45:00,Data și ora facturii.
+Price,float64,0.0,2807,6.95,Prețul unitar în lire sterline (£).
+Customer ID,object,22.766872999172733,5942,13085,Identificatorul clientului (lipsește la o parte din rânduri: clienți neînregistrați).
+Country,object,0.0,43,United Kingdom,Țara clientului.

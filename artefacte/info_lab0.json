@@ -1,0 +1,23 @@
+{
+  "randuri_brute": 1067371,
+  "randuri_curate": 1037021,
+  "facturi_curate": 39516,
+  "produse": 4896,
+  "clienti_id": 5942,
+  "tari": 43,
+  "data_min": "2009-12-01",
+  "data_max": "2011-12-09",
+  "data_taiere": "2011-09-10",
+  "zile_fereastra": 90,
+  "pct_fara_client": 22.766872999172733,
+  "duplicate_exacte": 34335,
+  "pct_duplicate": 3.2167821685243467,
+  "pct_retururi": 1.7131812649959572,
+  "pct_venit_uk": 85.69739522200939,
+  "venit_total": 20110181.017,
+  "clienti_cu_istoric": 5256,
+  "pct_cumpara_viitor": 43.550228310502284,
+  "luna_maxima": "2011-11",
+  "pct_venit_luna_maxima": 7.248793677032071,
+  "retururi_fara_client": 352
+}

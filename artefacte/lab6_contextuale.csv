@@ -1,0 +1,4 @@
+,facturi evaluate,anomalii |z| > 3,% din evaluate,din care NEvăzute de analiza globală
+global (toate facturile),39516,683,1.7284138070654924,0
+context: țara,38332,623,1.6252739225712198,23
+context: clientul însuși,24184,712,2.9440952695997353,618

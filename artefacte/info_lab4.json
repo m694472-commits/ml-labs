@@ -1,0 +1,31 @@
+{
+  "dimensiuni": 1218,
+  "k95": 813,
+  "k_cv": 20,
+  "auc_cv_kcv": 0.7304073564294042,
+  "auc_cv_k95": 0.6094996253136862,
+  "auc_test_kcv": 0.7247161413945253,
+  "auc_test_toate": 0.5999523991783026,
+  "auc_test_k95": 0.6243973065700035,
+  "praguri": {
+    "80%": 426,
+    "90%": 638,
+    "95%": 813,
+    "99%": 1069
+  },
+  "prag_produs": 0.02,
+  "perplexity": 30,
+  "clienti": 5256,
+  "clase": {
+    "0": "fără cumpărare",
+    "1": "cheltuială mică",
+    "2": "cheltuială mare"
+  },
+  "mediana_cheltuiala": 521.2,
+  "lda_acuratete_test": 0.626425855513308,
+  "lda_acuratete_train": 0.6355851569933397,
+  "baza_acuratete": 0.564638783269962,
+  "trust_tsne": 0.8292452697982012,
+  "trust_pca2d": 0.5978122512622319,
+  "var_pc12": 0.10470865666866302
+}

@@ -1,0 +1,16 @@
+{
+  "coșuri_train": 31714,
+  "coșuri_test": 6713,
+  "produse": 1445,
+  "suport_minim": 0.01,
+  "confidence_minim": 0.5,
+  "max_len": 3,
+  "reguli": 451,
+  "seturi_frecvente": 1430,
+  "reguli_cantitative": 122,
+  "perechi_secventiale": 62270,
+  "data_taiere": "2011-09-10",
+  "hit_rate_lift": 7.5,
+  "hit_rate_baza": 1.9,
+  "lift_test_pastrat": 0.9977827050997783
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+# datasetul brut (prea mare pentru GitHub; notebook-urile îl descarcă singure prin kagglehub)
+online_retail*.csv
+*.zip

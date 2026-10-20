@@ -1,0 +1,11 @@
+problema,rânduri,% din total
+Customer ID lipsă,243007,22.77
+Description lipsă,4382,0.41
+Facturi anulate (prefix C),19494,1.83
+Facturi contabile (prefix A),6,0.0
+Quantity < 0,22950,2.15
+Quantity < 0 fără factură C (ieșiri din stoc),3457,0.32
+Price == 0,6202,0.58
+Price < 0,5,0.0
+Duplicate complete,34335,3.22
+StockCode fără 5 cifre (servicii/taxe),6093,0.57

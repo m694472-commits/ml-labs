@@ -1,0 +1,7 @@
+tip,unitate,anomalii,observație
+punctuale · univariate (IQR pe log valoare),factură,2948,o singură variabilă
+punctuale · multivariate (consens ≥ 3 din 6),factură,359,combinația de variabile
+punctuale · multivariate (consens ≥ 3 din 6),client,69,profil de client
+contextuale · țara,factură,623,23 nevăzute global
+contextuale · clientul însuși,factură,712,618 nevăzute global
+colective · serie zilnică (SARIMAX),zi (episod),44,33 episoade

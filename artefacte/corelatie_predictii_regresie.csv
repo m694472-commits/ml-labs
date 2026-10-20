@@ -1,0 +1,4 @@
+,Ridge,Random Forest (reglat),Gradient Boosting (reglat)
+Ridge,1.0,0.9325664488964415,0.9423346526524287
+Random Forest (reglat),0.9325664488964415,1.0,0.9881528160806655
+Gradient Boosting (reglat),0.9423346526524287,0.9881528160806655,1.0

@@ -1,0 +1,58 @@
+{
+  "dataset": "Online Retail II (UCI)",
+  "randuri_brute": 1067371,
+  "randuri_curate": 1037021,
+  "clienti": 5256,
+  "clienti_regresie": 2281,
+  "data_taiere": "2011-09-10",
+  "sfarsit_date": "2011-12-09",
+  "zile_fereastra": 90,
+  "features": [
+    "recenta_zile",
+    "vechime_zile",
+    "rata_retur",
+    "uk",
+    "log_frecventa",
+    "log_produse_distincte",
+    "log_vanzari_ultimele_90z",
+    "log_valoare_medie_factura",
+    "log_retururi"
+  ],
+  "redundante_scoase": [
+    "log_vanzari_brute",
+    "log_cantitate_totala"
+  ],
+  "regresie": {
+    "model": "Ansamblu: medie",
+    "rmse_log_cv": 0.777704682586958,
+    "r2_test": 0.5181928806883798,
+    "mae_lire": 499.0214681684036,
+    "mape": 68.7454522687416,
+    "r2_cv": 0.4973641859258365,
+    "rmse_lire": 1123.7571924669153,
+    "r2_train": 0.546147188162399
+  },
+  "clasificare": {
+    "model": "Voting soft",
+    "auc_cv": 0.7968618307971244,
+    "auc_test": 0.8155389410847926,
+    "f1_test": 0.6913875598086124,
+    "prag": 0.4356953995342787,
+    "precision": 0.7645502645502645,
+    "recall": 0.631004366812227,
+    "accuracy": 0.7547528517110266,
+    "k_knn": 21,
+    "pondere_clasa_1": 0.4355022831050228
+  },
+  "mediane_clienti": {
+    "recenta_zile": 66.0,
+    "vechime_zile": 500.0,
+    "frecventa": 5.0,
+    "produse_distincte": 72.0,
+    "vanzari_ultimele_90z": 175.7,
+    "valoare_medie_factura": 312.14,
+    "retururi_val": -7.5,
+    "rata_retur": 0.0,
+    "uk": 1.0
+  }
+}
